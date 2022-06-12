@@ -30,7 +30,6 @@ def git_commits(rand):
 
     return func_decorator
 
-@git_commits("test")
 def main():
     log_param("param1", randint(0, 100))
 
